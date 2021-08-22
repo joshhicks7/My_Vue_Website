@@ -1,11 +1,7 @@
 <template>
     <div class = "aboutme">
-        <div class="aboutme_left">
-            
-        </div>
-        <div class="aboutme_middle">
-
-        </div>
+        <div class="aboutme_left"></div>
+        <div class="aboutme_middle"></div>
         <div class="aboutme_right">
             <h2 style = "text-decoration:underline">ABOUT ME</h2>
             <p class = "text">
@@ -16,11 +12,16 @@
 </template>
 
 <script>
-
-
 export default 
 {
-    name:"AboutMe"
+   name:"AboutMe",
+   data: function()
+   {
+       return{
+           butterflies:['monkey', 'banana', 'rabbit'],
+       }       
+       
+   }
 }
 
 </script>
